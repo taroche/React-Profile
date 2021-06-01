@@ -1,14 +1,14 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+
 
 import Card from '../components/Card';
 
 import BeerApp from '../Images/websiteImage.png'
 import WeatherApp from '../Images/Weather-dashboard.png'
 import EmployeeApp from '../Images/employee-directory-image.png'
-import NoteTaker from '../Images/note_taker_homepage.png'
+import NoteTaker from '../Images/Note_taker_homepage.png'
 
 
 class Carousel extends React.Component {
