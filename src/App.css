@@ -1,38 +1,126 @@
-.App {
-  text-align: center;
+html {
+  scroll-behavior: smooth;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.homePage {
+  margin-bottom: 40px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.homeHeader {
+  background-position: center bottom;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.heroRow {
+  display: flex;
+  text-align: center;
+  position: relative;
+  
+}
+.heroTitle {
+  font-family: 'Fredoka One', cursive;
+  word-spacing: 10px;
+
+  
+  padding: 10px;
+  margin-top: auto;
+  letter-spacing: 4px;
+}
+.heroSubtitle {
+  
+  font-family: 'Rokkitt', serif;
+  padding: 0px;
+  margin-bottom: 65%;
+  font-size: 50px;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+.aboutMe {
+  font-family: 'Rokkitt', serif;
+  font-size: x-large;
+  font-weight:normal;
+  
+}
+
+
+
+.aboutContainer {
+  background: lightcyan;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+
+.contactPage{
+  
+  background: lightcyan;
+  ;
+  margin-bottom: 10px;
+  padding: 10px;
+
+  font-family: 'Rokkitt', serif;
+  font-size: x-large;
+}
+
+.form {
+  padding-bottom: 20px;
+}
+
+button.button {
+
+  border: 0;
+  color: #debe89;
+  margin-top: 10px;
+}
+button.button:hover {
+  background-color: #5fc0c6;
+  color: #fff
+}
+
+button.button:visited {
+  background-color: #5fc0c6;
+  color: #fff
+}
+
+
+form {
+  width:auto;
+}
+
+
+
+
+
+@media screen and (max-width: 400px) {
+
+  .homeHeader {
+    background-repeat: no-repeat;
+    height: 85vh;
   }
-  to {
-    transform: rotate(360deg);
+  .heroSubtitle {
+    font-size: 40px;
   }
+
+  .arrow {
+   margin-bottom: 20px;
+}
+
 }

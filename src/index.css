@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.t-card {
+  margin: 20px;
+  cursor: pointer;
+
+}
+.t-card-image:hover{
+  box-shadow:3px 3px 1px #debe89, 6px 6px #5fc0c6, 9px 9px #007284, #ccc 0px 19px 43px;
+	transform: translate3d(0px, -1px, 0px);
+}
+
+.t-card-image{
+  border-radius: 10px;
+  width: 400px;
+  height: 220px;
+  box-shadow: 3px 3px 1px #debe89, 6px 6px #5fc0c6, 9px 9px #007284;
+}
+
+.t-card-info {
+  margin-top: 10px;
+  min-height: 100px;
+  font-family: 'Rokkitt', serif;
+  color: #007284;
+}
+
+.t-card-title {
+  font-size: 24px;
+  margin: 0px;
+  font-weight: bolder;
+}
+
+.t-card-sub-title {
+  font-size: 16px;
+  margin:0px;
+  
+}
+
+.t-card-link{
+  text-decoration:none;
+  color:#007284;
+  font-weight: bold;
+}
+
+.t-card-link:hover{
+  color: #cebe89;
+}
+
+@media screen and (max-width: 400px) {
+  .t-card-image{
+    border-radius: 10px;
+    width: 350px;
+    height: 200px;
+  }
+
+}
