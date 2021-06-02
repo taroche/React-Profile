@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/React-Profile/static/css/main.0804dca4.chunk.css",
+    "main.js": "/React-Profile/static/js/main.1dff53a9.chunk.js",
+    "main.js.map": "/React-Profile/static/js/main.1dff53a9.chunk.js.map",
+    "runtime-main.js": "/React-Profile/static/js/runtime-main.ab6137dd.js",
+    "runtime-main.js.map": "/React-Profile/static/js/runtime-main.ab6137dd.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/React-Profile/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.da1358b3.chunk.js": "/React-Profile/static/js/2.da1358b3.chunk.js",
+    "static/js/2.da1358b3.chunk.js.map": "/React-Profile/static/js/2.da1358b3.chunk.js.map",
+    "static/js/3.cfcf77fc.chunk.js": "/React-Profile/static/js/3.cfcf77fc.chunk.js",
+    "static/js/3.cfcf77fc.chunk.js.map": "/React-Profile/static/js/3.cfcf77fc.chunk.js.map",
+    "index.html": "/React-Profile/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/React-Profile/static/css/2.61b4cb56.chunk.css.map",
+    "static/css/main.0804dca4.chunk.css.map": "/React-Profile/static/css/main.0804dca4.chunk.css.map",
+    "static/js/2.da1358b3.chunk.js.LICENSE.txt": "/React-Profile/static/js/2.da1358b3.chunk.js.LICENSE.txt",
+    "static/media/Note_taker_homepage.c8bf52be.png": "/React-Profile/static/media/Note_taker_homepage.c8bf52be.png",
+    "static/media/Weather-dashboard.a6d9f11a.png": "/React-Profile/static/media/Weather-dashboard.a6d9f11a.png",
+    "static/media/employee-directory-image.8d043b68.png": "/React-Profile/static/media/employee-directory-image.8d043b68.png",
+    "static/media/websiteImage.cc5a2905.png": "/React-Profile/static/media/websiteImage.cc5a2905.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab6137dd.js",
+    "static/css/2.61b4cb56.chunk.css",
+    "static/js/2.da1358b3.chunk.js",
+    "static/css/main.0804dca4.chunk.css",
+    "static/js/main.1dff53a9.chunk.js"
+  ]
+}
